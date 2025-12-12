@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // Base path for GitHub Pages (repo hosted at https://<user>.github.io/davies-portfolio)
+      base: '/davies-portfolio/',
       server: {
         port: 3000,
         host: '0.0.0.0',
