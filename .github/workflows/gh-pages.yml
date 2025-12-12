@@ -40,7 +40,7 @@ jobs:
           # Default uses the GITHUB_TOKEN; if you still get 403 create a PAT and
           # set it in repository secrets (e.g. PERSONAL_TOKEN) and replace the
           # line below with: github_token: ${{ secrets.PERSONAL_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: portfolio/dist
           publish_branch: gh-pages
           allow_empty_commit: true
